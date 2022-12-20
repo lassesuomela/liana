@@ -122,10 +122,6 @@ a:hover {
     padding: 2em;
 }
 
-.stats span {
-    padding-left: 1em;
-}
-
 .stats p{
     margin-bottom: 0em;
 }
@@ -137,6 +133,10 @@ a:hover {
 
 .stats p:last-child {
     font-size: 1.2em;
+}
+
+.counter {
+    width: 100%;
 }
 
 .news {
