@@ -28,6 +28,10 @@ a:hover {
     color: #ccc !important;
 }
 
+input[type="text"]::placeholder, input[type="email"]::placeholder {
+    color:black;
+}
+
 #header {
     background-color: var(--darkerGreen);
     width: 100%;
@@ -43,8 +47,24 @@ a:hover {
 
 #dropdownMenuLink {
     background-color: white;
+    color:black;
     text-align: start;
     width: 10em;
+}
+
+#dropdownMenuLink:hover {
+    color: #ccc;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color:black;
+    background-color: white;
+}
+
+.dropdown-menu a:active, .dropdown-menu a:hover {
+    background-color: white;
+    color: #ccc;
 }
 
 .navbar {
@@ -59,8 +79,12 @@ a:hover {
     width: 300px;
 }
 
+.navbar .nav-link {
+    font-size: 1.3em;
+}
+
 #mainImage {
-    background-image: url(../assets/computer.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/computer.jpg);
     width: 100%;
     background-size: cover;
     height: 30em;
@@ -196,6 +220,10 @@ a:hover {
 
 #newsletter .row div {
     padding-right: 0em;
+}
+
+#subscribed {
+    display: none;
 }
 
 footer {
