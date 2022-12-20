@@ -18,6 +18,15 @@
     background-color: var(--evenDarkerGreen) !important;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #ccc;
+}
+
 #header {
     background-color: var(--darkerGreen);
     width: 100%;
@@ -96,4 +105,15 @@ footer {
 
 footer a {
     padding: 0em 0.5em;
+}
+
+footer .logos i {
+    cursor: pointer;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 50%;
+    width: 2em;
+    background-color: var(--darkerGreen);
+    margin-left: 0.3em;
 }
