@@ -116,7 +116,6 @@ input[type="text"]::placeholder, input[type="email"]::placeholder {
     text-align: center;
     border-radius: 0.5em;
     margin-left: 2em;
-    cursor: pointer;
 }
 
 .image h2 {
@@ -166,6 +165,14 @@ input[type="text"]::placeholder, input[type="email"]::placeholder {
 .news {
     padding: 2em 6em;
     background-color: var(--grey);
+}
+
+.letter {
+    color:black;
+}
+
+.news a:hover {
+    color:black !important;
 }
 
 .letter {
