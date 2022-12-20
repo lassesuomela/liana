@@ -127,6 +127,19 @@ a:hover {
     font-weight: 600;
 }
 
+.card {
+    width: 15%;
+    padding: 1em;
+    text-align: center;
+    margin-left: 2em;
+}
+
+.card-img-top {
+    height: 10em;
+    width: 100%;
+    object-fit: contain;
+}
+
 #newsletter {
     text-align: center;
     padding-bottom: 2em;
