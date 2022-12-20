@@ -2,6 +2,7 @@
     --darkerGreen: #4c8930;
     --lighterGreen: #5e9545;
     --evenDarkerGreen: #3d6e26;
+    --grey: #eceeef;
 }
 
 .btn-primary, .btn-primary:visited {
@@ -24,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #ccc;
+    color: #ccc !important;
 }
 
 #header {
@@ -77,13 +78,62 @@ a:hover {
     font-size: 4em;
 }
 
+.icon {
+    color: var(--darkerGreen);
+    font-size: 6em;
+    padding: 0.5em;
+}
+
+.stats {
+    padding: 2em;
+}
+
+.stats span {
+    padding-left: 1em;
+}
+
+.stats p{
+    margin-bottom: 0em;
+}
+
+.stats p:first-child {
+    font-weight: lighter;
+    font-size: 4em;
+}
+
+.stats p:last-child {
+    font-size: 1.2em;
+}
+
+.news {
+    padding: 2em 6em;
+    background-color: var(--grey);
+}
+
+.letter {
+    padding: 1em;
+    background-color: white;
+    margin-left: 2em;
+    border-radius: 0.3em;
+    width: 45ch;
+}
+
+.letter p {
+    margin-bottom: 0em;
+}
+
+.letter p:last-child {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
 #newsletter {
     text-align: center;
-    padding: 0 20em;
+    padding-bottom: 2em;
 }
 
 #newsletter p {
-    width: 60%;
+    width: 45ch;
     margin: 0 auto;
 }
 
@@ -92,7 +142,6 @@ a:hover {
 }
 
 #newsletter .row div {
-    padding-left: 0em;
     padding-right: 0em;
 }
 
