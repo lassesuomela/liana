@@ -1,6 +1,14 @@
 # Readme
 
-This is a coding assignment for Liana Technologies. Task was to recreate a site based on a reference image and make it responsive. Project was made with HTML, CSS and vanilla JavaScript.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+This project is a coding assignment for Liana Technologies. Task was to recreate a basic HTML site based on a reference image and make it responsive. Project was made with HTML, CSS and vanilla JavaScript.
+
+# Demo
+
+[https://lianademo.lassesuomela.com](https://lianademo.lassesuomela.com)
 
 ## Extra content that I added
 
