@@ -296,7 +296,7 @@ body {
     }
 
     .icon {
-        font-size: 3em;
+        font-size: 4em;
         padding: 0.3em;
     }
 
@@ -306,7 +306,7 @@ body {
     }
 
     .stats p:first-child {
-        font-size: 3em;
+        font-size: 3.5em;
     }
 
     .stats p:last-child {
@@ -387,14 +387,6 @@ body {
     .stats {
         display: flex;
         flex-direction: column;
-    }
-
-    .stats p:first-child {
-        font-size: 3em;
-    }
-
-    .stats p:last-child {
-        font-size: 1em;
     }
 
     .news {
@@ -558,9 +550,8 @@ body {
     }
 
     .news div {
-        flex-direction: column;
-        align-items: center;
-        padding: 0em 0em;
+        padding: 0em 1em;
+        gap: 1em;
     }
 
     .letter {
@@ -620,14 +611,21 @@ body {
     }
 
     .news div {
-        flex-direction: column;
-        align-items: center;
-        padding: 0em 0em;
+        gap: 1em;
     }
 
     .letter {
         padding: 1em;
         margin-left: 0em;
         margin-bottom: 1em;
+    }
+
+    .card {
+        width: 80%;
+        gap: 1em;
+    }
+
+    .referencesWrapper {
+        padding: 0em 2em;
     }
 }
