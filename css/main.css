@@ -195,6 +195,7 @@ input[type="text"]::placeholder, input[type="email"]::placeholder {
 .letter p {
     margin-bottom: 0em;
 }
+
 .letter p:first-child {
     padding-bottom: 1em;
 }
@@ -215,6 +216,7 @@ input[type="text"]::placeholder, input[type="email"]::placeholder {
 .card:first-child {
     margin-left: 0em;
 }
+
 .card-img-top {
     height: 10em;
     width: 100%;
@@ -268,6 +270,10 @@ footer .logos i {
 
 @media only screen and (max-width: 600px) {
 
+    .navbar {
+        padding: 0.5em 2em;
+    }
+
     .links {
         flex-direction: column;
     }
@@ -298,6 +304,7 @@ footer .logos i {
     .news div {
         flex-direction: column;
         align-items: center;
+        padding: 0em 0em;
     }
 
     .letter {
@@ -320,5 +327,18 @@ footer .logos i {
 
     .card-img-top {
         padding: 0.5em;
+    }
+
+    footer {
+        padding: 2em 2em;
+    }
+
+    footer .pages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .pages a{
+        padding-bottom: 0.2em;
     }
 }
