@@ -276,10 +276,18 @@ body {
     #newsletter p {
         width: 30ch;
     }
+
+    #header ul {
+        padding-right: 0em;
+    }
 }
 
 
 @media only screen and (max-width: 600px) {
+
+    #header ul {
+        padding-right: 0em;
+    }
 
     .navbar {
         padding: 0.5em 2em;
